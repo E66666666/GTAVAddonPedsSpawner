@@ -1,0 +1,6 @@
+[submodule "thirdparty/simpleini"]
+	path = thirdparty/simpleini
+	url = https://github.com/brofield/simpleini
+[submodule "thirdparty/lodepng"]
+	path = thirdparty/lodepng
+	url = https://github.com/lvandeve/lodepng

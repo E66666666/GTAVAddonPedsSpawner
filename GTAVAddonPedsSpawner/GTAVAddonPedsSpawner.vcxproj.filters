@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="keyboard.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="script.cpp" />
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="Util\Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Logger.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Paths.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GTAVMenuBase\menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GTAVMenuBase\menucontrols.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GTAVMenuBase\menukeyboard.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GTAVMenuBase\menusettings.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GTAVMenuBase\menuutils.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptMenu.cpp" />
+    <ClCompile Include="..\thirdparty\lodepng\lodepng.cpp">
+      <Filter>thirdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\jpegsize.cpp">
+      <Filter>thirdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeMemory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\minhook\src\buffer.c">
+      <Filter>thirdparty\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\minhook\src\hook.c">
+      <Filter>thirdparty\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\minhook\src\trampoline.c">
+      <Filter>thirdparty\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\minhook\src\hde\hde32.c">
+      <Filter>thirdparty\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\minhook\src\hde\hde64.c">
+      <Filter>thirdparty\minhook\hde</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="keyboard.h" />
+    <ClInclude Include="script.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="..\..\ScriptHookV_SDK\inc\main.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ScriptHookV_SDK\inc\types.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ScriptHookV_SDK\inc\natives.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ScriptHookV_SDK\inc\enums.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Versions.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Util.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Logger.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Paths.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GTAVMenuBase\menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GTAVMenuBase\menucontrols.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GTAVMenuBase\menukeyboard.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GTAVMenuBase\menusettings.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GTAVMenuBase\menuutils.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtraTypes.h" />
+    <ClInclude Include="..\thirdparty\lodepng\lodepng.h">
+      <Filter>thirdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\jpegsize.h">
+      <Filter>thirdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeMemory.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GTAVMenuBase\Scaleform.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PedHashes.h" />
+    <ClInclude Include="..\thirdparty\minhook\src\buffer.h">
+      <Filter>thirdparty\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\include\MinHook.h">
+      <Filter>thirdparty\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\trampoline.h">
+      <Filter>thirdparty\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\hde\hde32.h">
+      <Filter>thirdparty\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\hde\hde64.h">
+      <Filter>thirdparty\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\hde\table64.h">
+      <Filter>thirdparty\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\hde\pstdint.h">
+      <Filter>thirdparty\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\hde\table32.h">
+      <Filter>thirdparty\minhook\hde</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{2ddb264d-7049-485c-af4d-21d3aa7b59b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{c645b72d-ff91-452e-a853-5a39780dac01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{f35098a6-2e30-436c-9f96-a5d325064032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{371be4fb-f341-4041-adea-08b5ef342bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{99f880a3-306a-43ff-b7b2-432e57255433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\minhook">
+      <UniqueIdentifier>{dfcad8bf-e98c-44c5-a09b-efab995fb5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\minhook\hde">
+      <UniqueIdentifier>{5ee5e1bb-375f-4bb9-981e-e410ace4f1e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
